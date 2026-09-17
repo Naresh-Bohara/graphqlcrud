@@ -1,4 +1,4 @@
-import { Field, InputType, PartialType } from '@nestjs/graphql';
+import { Field, ID, InputType, PartialType } from '@nestjs/graphql';
 import { CreateBookInput } from './create-book.input';
 import { IsNotEmpty } from 'class-validator';
 
